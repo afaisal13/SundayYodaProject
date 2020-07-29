@@ -1,0 +1,370 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3238134868,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User should able to create account using Register",
+        "description": "",
+        "id": "users-ability-to-create-account;user-should-able-to-create-account-using-register;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 696398090,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4733420165,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browse to Newtours homepage",
+            "match": {
+              "location": "NewtoursRegisterSteps.browse_to_Newtours_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2769775608,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Navigate to Register page",
+            "match": {
+              "location": "NewtoursRegisterSteps.navigate_to_Register_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6378972324,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Fill form with some basic information",
+            "match": {
+              "location": "NewtoursRegisterSteps.fill_form_with_some_basic_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1832253303,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Complete creating account \"Wasim\" with \"Akram\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Wasim",
+                  "offset": 27
+                },
+                {
+                  "val": "Akram",
+                  "offset": 40
+                }
+              ],
+              "location": "NewtoursRegisterSteps.complete_creating_account_with(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1461988708,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify account created successfully",
+            "match": {
+              "location": "NewtoursRegisterSteps.verify_account_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 1,
+            "name": "@newtour"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2589088142,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User should able to create account using Register",
+        "description": "",
+        "id": "users-ability-to-create-account;user-should-able-to-create-account-using-register;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 744438478,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4432500177,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browse to Newtours homepage",
+            "match": {
+              "location": "NewtoursRegisterSteps.browse_to_Newtours_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2742499229,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Navigate to Register page",
+            "match": {
+              "location": "NewtoursRegisterSteps.navigate_to_Register_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3500037087,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Fill form with some basic information",
+            "match": {
+              "location": "NewtoursRegisterSteps.fill_form_with_some_basic_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3205733497,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Complete creating account \"Sachin\" with \"Tendulkar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sachin",
+                  "offset": 27
+                },
+                {
+                  "val": "Tendulkar",
+                  "offset": 41
+                }
+              ],
+              "location": "NewtoursRegisterSteps.complete_creating_account_with(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1585580979,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify account created successfully",
+            "match": {
+              "location": "NewtoursRegisterSteps.verify_account_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 1,
+            "name": "@newtour"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3868016288,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User should able to create account using Register",
+        "description": "",
+        "id": "users-ability-to-create-account;user-should-able-to-create-account-using-register;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 731269124,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4177607153,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browse to Newtours homepage",
+            "match": {
+              "location": "NewtoursRegisterSteps.browse_to_Newtours_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1322113180,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Navigate to Register page",
+            "match": {
+              "location": "NewtoursRegisterSteps.navigate_to_Register_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5129009760,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Fill form with some basic information",
+            "match": {
+              "location": "NewtoursRegisterSteps.fill_form_with_some_basic_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1573609603,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Complete creating account \"Mashrafe\" with \"Mortaza\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mashrafe",
+                  "offset": 27
+                },
+                {
+                  "val": "Mortaza",
+                  "offset": 43
+                }
+              ],
+              "location": "NewtoursRegisterSteps.complete_creating_account_with(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1427068692,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify account created successfully",
+            "match": {
+              "location": "NewtoursRegisterSteps.verify_account_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 1,
+            "name": "@newtour"
+          }
+        ]
+      }
+    ],
+    "name": "Users ability to create account",
+    "description": "",
+    "id": "users-ability-to-create-account",
+    "keyword": "Feature",
+    "uri": "NewtoursRegister.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@newtour"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
